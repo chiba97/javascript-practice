@@ -8,4 +8,14 @@ function foo() {
 
 foo()
 
+function addString(strA){
+  let addStr = "Hello" + strA;
+  return addStr;
+}
+
+let alertString;
+alertString = addString("WebCamp");
+
+alert(alertString);
+
 
